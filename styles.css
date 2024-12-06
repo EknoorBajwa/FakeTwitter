@@ -1,0 +1,149 @@
+/* Global Styles */
+.profile-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .profile-button:hover {
+            background-color: #0056b3;
+        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Top Navigation */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.top-nav .search-bar input {
+    padding: 5px;
+    width: 200px;
+}
+
+.top-nav .user-options {
+    color: white;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.feed-section {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.user-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.timestamp {
+    color: #888;
+}
+
+.tweet-content {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.post-actions button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.suggested-users, .trending-topics {
+    margin-bottom: 20px;
+}
+
+.suggested-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.suggested-user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.suggested-user button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.trending-topics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trending-topics li {
+    margin: 5px 0;
+    cursor: pointer;
+}
